@@ -1,0 +1,38 @@
+.em-grid{
+	border:1px solid rgb(235, 238, 245);
+	
+	.em-grid-toolbar{
+		height: 42px;
+		line-height: 1;
+		background: linear-gradient(to bottom, #f8f8f8 0%, #efefef 100%);
+		border-bottom: 1px solid rgb(225, 228, 235);
+		position: relative;
+		.em-grid-search-bar {
+			position: absolute;
+			right: 0;
+			top:0;
+			height: 42px;
+			line-height: 1;
+		}
+		.el-button-group{
+			.el-button{
+				margin-left:12px;
+			}
+		}
+	}
+	.em-grid-body{
+		.el-table{
+			.el-table__header{
+				th{
+					background: #f6f6f6;
+				}
+			}
+		}
+	}
+	.em-grid-footer{
+		height: 32px;
+		padding: 5px;
+		text-align: center;
+		background:#f6f6f6;
+	}
+}

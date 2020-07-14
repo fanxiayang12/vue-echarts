@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <v-chart class="echarts" :options="polar" />
+    <v-chart class="v-chart" :options="polar" />
   </div>
 </template>
 
